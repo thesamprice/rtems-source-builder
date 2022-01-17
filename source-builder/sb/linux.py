@@ -50,7 +50,7 @@ def load():
         '_usr':             ('dir',     'required', '/usr'),
         '_var':             ('dir',     'required', '/var'),
         '_prefix':          ('dir',     'optional', '/opt'),
-        '__bzip2':          ('exe',     'required', '/usr/bin/bzip2'),
+        '__bzip2':          ('exe',     'required', '/bin/bzip2'),
         '__gzip':           ('exe',     'required', '/bin/gzip'),
         '__tar':            ('exe',     'required', '/bin/tar')
         }
