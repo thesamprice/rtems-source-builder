@@ -1,0 +1,16 @@
+#
+# Build set for tcgcov
+#
+# The tcgcov plugin is built against the plugin header QEMU installs and the
+# plugin API is versioned, so QEMU is built first and in the same build set.
+#
+
+%define release 1
+
+#
+# Name of the package.
+#
+package: tcgcov-%{tcgcov_version}-%{_host}-%{release}
+
+devel/qemu
+devel/tcgcov-0.1.0-1
